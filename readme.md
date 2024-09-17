@@ -1,5 +1,7 @@
+<img src="https://capsule-render.vercel.app/api?type=rounded&height=300&color=a2a2a2&text=Personal%20Portfolio&fontColor=ffffff"></img>
+
 <h1>This is still under production 🚧</h1>
-<h2
+<br>
  <p>I will more than likely add a few bits now and again when I have the free time to lol.
 For the time being, this is just what i use to copy and paste my configs from. </p>
 
