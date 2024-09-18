@@ -9,4 +9,4 @@ For the time being, this is just what i use to copy and paste my configs from. <
 <v0.0.1>
 <img src="https://github.com/user-attachments/assets/c9f10211-db5d-4a0c-9ca9-2d3b7b73ad76"></img>
 
-</v0.0.1>
+
