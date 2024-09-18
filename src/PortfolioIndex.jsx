@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import { createRoot } from "react-dom/client";
+import Star from "./static/Star";
 
 const PortfolioIndex = () => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
@@ -8,27 +9,41 @@ const PortfolioIndex = () => {
   const toggleDropdown = () => {
     setDropdownOpen(!dropdownOpen);
   };
+  const stars = Array.from({ length: 50 });
 
   return (
     <div className="min-h-screen bg-gray-100 flex flex-col justify-center items-center">
-      <h1 className="text-5xl font-bold mb-4 text-gray-800">John Doe</h1>
+      {stars.map((_, index) => (
+        <Star
+          key={index}
+          size={`${Math.random() * 3 + 2}px`}
+          top={`${Math.random() * 100}vh`}
+          left={`${Math.random() * 100}vw`}
+          duration={Math.random() * 10 + 5}
+        />
+      ))}
+      <h1 className="text-5xl font-bold mb-4 text-gray-800 ">John Doe</h1>
       <p className="text-xl mb-8 text-gray-600">Full-Stack Developer</p>
 
-      <div className="space-y-4">
-        <button className="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition-colors">
-          View Projects
+      <div className="flex justify-between items-center space-x-2">
+        <button
+          className="bg-slate-700 text-white px-5 py-2 rounded-lg hover:bg-red-600 transition-colors
+         shadow-lg shadow-black/20"
+        >
+          Projects
         </button>
         <div className="relative">
           <button
             onClick={toggleDropdown}
-            className="bg-green-500 text-white px-6 py-3 rounded-lg hover:bg-green-600 transition-colors"
+            className="bg-slate-700 text-white px-5 py-2 rounded-lg hover:bg-red-600
+            transition-colors shadow-lg shadow-black/20"
           >
-            Social Links
+            Socials
           </button>
           {dropdownOpen && (
-            <div className="absolute mt-2 w-48 bg-white rounded-md shadow-lg z-10">
+            <div className="absolute mt-2 w-48 bg-white rounded-md shadow-lg  z-10">
               <a
-                href="https://github.com/johndoe"
+                href="https://github.com/orpheusj"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block px-4 py-2 text-gray-800 hover:bg-gray-100"
@@ -43,6 +58,7 @@ const PortfolioIndex = () => {
               >
                 <FaLinkedin className="inline mr-2" /> LinkedIn
               </a>
+
               <a
                 href="mailto:johndoe@example.com"
                 className="block px-4 py-2 text-gray-800 hover:bg-gray-100"
