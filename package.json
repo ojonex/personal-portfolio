@@ -101,7 +101,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "dev": "vite dev",
-    "start": "serve -s build",
+    "start": "serve -s build"
   },
   "author": "",
   "license": "ISC",
