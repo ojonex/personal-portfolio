@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "description": "I will more than likely add a few bits now and again when I have the free time to lol.\r For the time being, this is just what i use to copy and paste my configs from.",
   "main": "index.js",
+  "type": "module",
   "dependencies": {
+    "@emotion/react": "^11.13.3",
     "acorn": "^8.12.1",
     "acorn-jsx": "^5.3.2",
     "ajv": "^6.12.6",
@@ -73,6 +75,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^5.3.0",
+    "react-router-dom": "^6.26.2",
     "react-tsparticles": "^2.12.2",
     "resolve-from": "^4.0.0",
     "reusify": "^1.0.4",
