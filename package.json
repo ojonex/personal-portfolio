@@ -102,7 +102,6 @@
     "preview": "vite preview",
     "dev": "vite dev",
     "start": "serve -s build",
-    "install": "npm install"
   },
   "author": "",
   "license": "ISC",
