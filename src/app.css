@@ -2,11 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
-@keyframes move {
-    0% {
-        transform: translateY(0);
+
+
+.shape {
+    opacity: 0.5;
+    filter: blur(50px);
+    animation: pulse 3s infinite;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
     }
-    100% {
-        transform: translateY(-100vh);
+    50% {
+        transform: scale(1.1);
     }
 }
+
+#root{
+    justify-content: center;
+}
+
