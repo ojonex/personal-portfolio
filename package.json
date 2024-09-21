@@ -80,6 +80,7 @@
     "resolve-from": "^4.0.0",
     "reusify": "^1.0.4",
     "run-parallel": "^1.2.0",
+    "serve": "^14.2.3",
     "shebang-command": "^2.0.0",
     "shebang-regex": "^3.0.0",
     "strip-ansi": "^6.0.1",
