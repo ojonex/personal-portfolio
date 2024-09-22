@@ -3,24 +3,7 @@ import { useNavigate, Routes, Route, BrowserRouter } from "react-router-dom";
 import { ArrowLeft } from "lucide-react";
 import BackgroundComponent from "../components/BackgroundComponent";
 import passgen from "../static/passgen.png";
-
-const BackButton = () => {
-  const navigate = useNavigate();
-
-  const handleBack = () => {
-    navigate(-1);
-  };
-
-  return (
-    <button
-      onClick={handleBack}
-      className="fixed top-4 left-4 z-50 border-2 border-white text-white px-4 py-2 rounded-lg hover:bg-purple-500 hover:text-white transition-colors"
-      aria-label="Go back"
-    >
-      <ArrowLeft className="w-6 h-6" />
-    </button>
-  );
-};
+import BackButton from "../components/BackButton";
 
 const ProjectCard = ({ title, description, img, imgAlt, projectURL }) => {
   return (
@@ -44,7 +27,7 @@ const Projects = () => {
       <BackgroundComponent className="absolute inset-0 z-0" />
       <div className="relative z-10 flex flex-col items-center justify-center pt-16 md:pt-0">
         <BackButton />
-        <h1 className="text-4xl md:text-5xl font-bold mb-4 text-white align-center text-white">
+        <h1 className="text-4xl md:text-5xl font-bold mb-4 text-white align-center">
           Projects
         </h1>
         <p className="text-md md:text-xl mb-8 text-white">

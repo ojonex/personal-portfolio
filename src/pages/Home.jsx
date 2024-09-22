@@ -30,7 +30,7 @@ const DropdownComponent = () => {
             <FaGithub className="inline mr-2" /> GitHub
           </a>
           <a
-            href="https://linkedin.com/in/johndoe"
+            href="https://linkedin.com/in/owaindj"
             target="_blank"
             rel="noopener noreferrer"
             className="block px-4 py-2 text-white hover:bg-purple-500"
@@ -38,7 +38,7 @@ const DropdownComponent = () => {
             <FaLinkedin className="inline mr-2" /> LinkedIn
           </a>
           <a
-            href="mailto:johndoe@example.com"
+            href="mailto:owainj400@gmail.com"
             className="block px-4 py-2 text-white border-white hover:text-white hover:bg-purple-500 rounded-b-lg"
           >
             <FaEnvelope className="inline mr-2" /> Email
@@ -76,7 +76,7 @@ export default function Component() {
           </a>
         </p>
         <p className="text-md md:text-l mb-3 text-white">
-          This is where the bulk of my work as a student will be posted.
+          This is where my work as a student will be posted.
         </p>
         <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0 md:space-x-4">
           <button
