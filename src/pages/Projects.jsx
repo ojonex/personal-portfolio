@@ -13,10 +13,11 @@ const ProjectCard = ({ title, description, img, imgAlt, projectURL }) => {
       <img src={img} alt={imgAlt} className="m-3 rounded-lg"></img>
 
       <p className="text-gray-300">{description}</p>
-
-      <button className="border-2 border-white text-white px-4 py-2 m-3 rounded-lg hover:bg-purple-500 hover:text-white transition-colors">
-        View Source
-      </button>
+      <a href={projectURL}>
+        <button className="border-2 border-white text-white px-4 py-2 m-3 rounded-lg hover:bg-purple-500 hover:text-white transition-colors">
+          View Source
+        </button>
+      </a>
     </div>
   );
 };
@@ -40,7 +41,8 @@ const Projects = () => {
             imgAlt="password generator"
             description="This password generator was created with EJS and Boostrap.  I tired of going to random.org and generating a new password everytime.
              For this I can simply run the program and press generate. I plan to make this a fully functional app with backend integration and a database by Q2 2025"
-          />
+            projectURL="https://github.com/OjoDevs/password-generator"
+          />{" "}
         </div>
       </div>
     </div>
