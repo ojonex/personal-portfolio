@@ -5,8 +5,10 @@
  <p>I will more than likely add a few bits now and again when I have the free time to lol.
 For the time being, this is just what i use to copy and paste my configs from. </p>
 <h2>
- <h2>Screenshots of V0.0.2</h2>
-<v0.0.1>
-<img src="https://github.com/user-attachments/assets/c9f10211-db5d-4a0c-9ca9-2d3b7b73ad76"></img>
+ <h2>Screenshots of V1</h2>
+
+<img src="https://github.com/user-attachments/assets/1eb0a6c5-7040-453a-bb87-54beb3c88975"></img>
+
+
 
 
